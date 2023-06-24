@@ -2,7 +2,7 @@ from typing import Callable
 import numpy
 
 class Bisection:
-    def __init__(self, iterations: int, exp: int):
+    def __init__(self, iterations: int = -1, exp: int = 10):
         self.iterations = iterations
         self.epsilon = 10 ** -exp
 
